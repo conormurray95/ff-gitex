@@ -1,7 +1,7 @@
 featureFlags:
   flags:
   - flag:
-      name: flegbla
+      name: itworks
       identifier: fleg
       description: ""
       permanent: false
