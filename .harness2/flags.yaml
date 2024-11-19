@@ -162,6 +162,6 @@ featureFlags:
         default:
           onVariation: "false"
           offVariation: "false"
-        state: "on"
+        state: "off"
   projectIdentifier: ffm12114
   orgIdentifier: default
