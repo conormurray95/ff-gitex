@@ -186,9 +186,9 @@ featureFlags:
         state: "off"
       - identifier: prod2
         default:
-          onVariation: "false"
+          onVariation: "true"
           offVariation: "false"
-        state: "off"
+        state: "on"
       - identifier: prod
         default:
           onVariation: "false"
