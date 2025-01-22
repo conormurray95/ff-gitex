@@ -1,41 +1,6 @@
 featureFlags:
   flags:
   - flag:
-      name: flag
-      identifier: flag
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        variations:
-        - identifier: "false"
-          value: "false"
-        - identifier: "true"
-          value: "true"
-      tags:
-      - tag:
-          name: test2
-          identifier: test2
-      environments:
-      - identifier: qa
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        state: "off"
-      - identifier: prod2
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        state: "off"
-      - identifier: prod
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        state: "off"
-  - flag:
       name: flag3
       identifier: flag3
       description: ""
