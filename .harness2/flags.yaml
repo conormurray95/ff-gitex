@@ -90,7 +90,7 @@ featureFlags:
         state: "on"
       - identifier: prod
         default:
-          onVariation: "false"
+          onVariation: "true"
           offVariation: "false"
         state: "on"
   - flag:
