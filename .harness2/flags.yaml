@@ -15,6 +15,13 @@ featureFlags:
           value: "false"
         - identifier: "true"
           value: "true"
+      tags:
+      - tag:
+          name: test2
+          identifier: test2
+      - tag:
+          name: tag1
+          identifier: tag1
       environments:
       - identifier: qa
         default:
